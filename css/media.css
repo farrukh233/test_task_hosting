@@ -1,0 +1,315 @@
+@media only screen and (max-width: 1920px) and (min-width: 1280px) {
+  body {
+    zoom: 100%;
+  }
+}
+
+@media only screen and (max-width: 1279px) and (min-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+  .header {
+    max-width: 768px;
+  }
+
+  .header__logo {
+    margin-left: 50px;
+  }
+
+  .header__contacts {
+    margin-left: 250px;
+  }
+  .header__wrapper_nav-item {
+    font-size: 16px;
+  }
+  .header__contacts_email {
+    left: 250px;
+  }
+  .hosting-about__description {
+    margin-left: 20%;
+  }
+  h1 {
+    font-size: 48px;
+  }
+  .header__contacts span {
+    color: #fff;
+    margin-left: 10px;
+  }
+
+  .header__profile_btn {
+    min-width: 200px;
+    margin-left: 450px;
+  }
+  .header__profile_icon {
+    left: 91%;
+  }
+  .hosting-about {
+    max-width: 768px;
+    height: 500px;
+  }
+  .hosting-about__description__img {
+    display: none;
+  }
+  .hosting-about__title {
+    margin-left: 150px;
+    padding-top: 54px;
+    max-width: 600px;
+  }
+  .hosting-about__description__btn {
+    left: 52%;
+    top: 121%;
+  }
+  .hosting-about__description__arrow {
+    left: 40%;
+  }
+  .tariffs {
+    max-width: 768px;
+    height: 100%;
+  }
+  .tariffs__text {
+    margin-left: 130px;
+    width: 600px;
+  }
+  .tariffs__wrapper {
+    flex-wrap: wrap;
+  }
+  .tariffs__wrapper__item {
+    margin-top: 5%;
+  }
+  .tariffs__cards {
+    flex-wrap: wrap;
+  }
+  .tariffs__card {
+    margin-top: 5%;
+  }
+  .bonus__wrapper {
+    flex-wrap: wrap;
+  }
+  .bonus__wrapper-list {
+    margin-bottom: 5%;
+  }
+  .footer {
+    margin-top: 5%;
+    height: 100%;
+    margin: 0% auto;
+    max-width: 768px;
+  }
+  .contacts__info {
+    top: 65%;
+    left: 20%;
+  }
+  .social__wrapper {
+    top: 65%;
+    right: 10%;
+  }
+  hr {
+    opacity: 0.1;
+    margin-top: 45%;
+    max-width: 768px;
+  }
+  .footer__politics {
+    justify-content: space-around;
+  }
+}
+
+@media only screen and (max-width: 767px) and (min-width: 320px) {
+  body {
+    overflow-x: hidden;
+  }
+  .header {
+    max-width: 320px;
+    height: 320px;
+  }
+  .header__wrapper {
+    margin-top: 0;
+  }
+  .header__logo {
+    margin-left: 35%;
+  }
+  .header__logo svg {
+    width: 100px;
+    height: 49px;
+  }
+  .header__wrapper {
+    display: none;
+  }
+
+  .header__contacts {
+    margin-left: 25%;
+    padding-top: 25%;
+  }
+  .wrapper__list {
+    flex-wrap: wrap;
+  }
+  .wrapper__item {
+    font-size: 16px;
+  }
+  .header__contacts_email {
+    left: 25%;
+    top: 35%;
+    width: 200px;
+  }
+  .email__text {
+    margin-left: 25%;
+  }
+  .hosting-about__description {
+    margin-left: 10%;
+  }
+  h1 {
+    font-size: 24px;
+    text-align: center;
+  }
+  .header__contacts span {
+    color: #fff;
+    margin-left: 10px;
+  }
+
+  .header__profile_btn {
+    min-width: 200px;
+    margin-top: 40%;
+    margin-left: 17%;
+  }
+  .header__profile_icon {
+    top: 55%;
+    left: 46%;
+  }
+  .header__profile_circle {
+    left: 44%;
+    top: 55%;
+  }
+  .hosting-about {
+    max-width: 320px;
+    height: 550px;
+    margin-top: 0;
+  }
+  .hosting-about__description__img {
+    display: none;
+  }
+  .hosting-about__title {
+    margin-left: 0px;
+    padding-top: 54px;
+    max-width: 320px;
+  }
+  .hosting-about__description__price {
+    max-width: 280px;
+    left: -11%;
+  }
+  .hosting-about__orange__block {
+    max-width: 320px;
+    left: -11%;
+  }
+  .hosting-about__description__btn {
+    max-width: 290px;
+    left: 5%;
+    top: 150%;
+  }
+  .hosting-about__description__arrow {
+    display: none;
+  }
+  .tariffs {
+    max-width: 320px;
+    height: 100%;
+  }
+  .tariffs__title {
+    padding-top: 40px;
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  .tariffs__text {
+    margin-left: 3%;
+    max-width: 300px;
+  }
+  .tariffs__wrapper {
+    flex-wrap: wrap;
+  }
+  .tariffs__wrapper__item {
+    margin-top: 5%;
+    margin-right: 5%;
+  }
+  .tariffs__cards {
+    flex-wrap: wrap;
+  }
+  .tariffs__card {
+    margin-top: 5%;
+    margin-right: 5%;
+  }
+  .bonus__wrapper {
+    flex-wrap: wrap;
+  }
+  .bonus__wrapper-list {
+    margin-bottom: 5%;
+  }
+  .bonus__wrapper-img {
+    margin-left: 0;
+  }
+  .bonus__wrapper-img img {
+    width: 320px;
+  }
+  .bonus__wrapper-list {
+    margin-right: 5%;
+  }
+  .bonus__wrapper-title {
+    font-size: 22px;
+    text-align: center;
+  }
+  .bonus__list {
+    max-width: 320px;
+  }
+  .bonus__item {
+    font-size: 14px;
+    margin-left: 15%;
+  }
+  .bonus__done-1 {
+    left: 4%;
+    top: 2%;
+  }
+  .bonus__done-2 {
+    left: 4%;
+    top: 35%;
+  }
+  .bonus__done-3 {
+    left: 4%;
+    top: 70%;
+  }
+  h3 {
+    font-size: 16px;
+  }
+  .footer {
+    margin-top: 5%;
+    height: 100%;
+    margin: 0% auto;
+    max-width: 320px;
+  }
+  .footer__logo {
+    padding-top: 10%;
+  }
+  .footer__info {
+    font-size: 12px;
+    max-width: 300px;
+    height: 144px;
+    padding-bottom: 66px;
+  }
+  .indent {
+    margin-left: 5%;
+  }
+  .contacts__info {
+    top: 60%;
+    left: 15%;
+  }
+  .social__wrapper {
+    top: 85%;
+    right: 10%;
+  }
+  .btn__report {
+    margin-top: 30%;
+    margin-left: 65%;
+  }
+  hr {
+    opacity: 0.1;
+    margin-top: 140%;
+    max-width: 320px;
+  }
+  .footer__politics {
+    justify-content: space-around;
+  }
+}
